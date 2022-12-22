@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arima', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    
+    background:-webkit-linear-gradient(242deg, #002aff 0%, #f2f7f2 80%);
+background:-o-linear-gradient(242deg, #002aff 0%, #f2f7f2 80%);
+background:-moz-linear-gradient(242deg, #002aff 0%, #f2f7f2 80%);
+background:linear-gradient(242deg, #002aff 0%, #f2f7f2 80%);
+
+}
+
+nav .container h2 {
+    text-shadow: 2px 2px 2px rgb(20, 24, 65);
+    text-decoration: none;
+    
+}
+
+h2{
+    color: black;
+}
+
+.button{
+    color: white;
+}
+
+a {
+    color: rgb(22, 17, 51);
+    text-decoration: none;
+    padding: 0 12px;
+    font-size: 1.2em;
+    cursor: pointer;
+   
+}
+
+/* 
+ a:hover {
+    color: rgba(33, 28, 169, 0.893);
+  
+  }
+  
+  header ul li a::before{
+      content: "";
+    
+    } 
+  
+  nav ul li a::after {
+    content: "";
+    width: 0%;
+    background: white;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    transition: 1500ms;
+  
+  }
+  
+  nav ul li a:hover:after {
+    background: white;
+    width: 100%;
+  
+  }
+   
+
+a .container .links a:hover {
+    color: rgb(53, 37, 146);
+    
+
+ }  */
+
+main {
+    background-image: url(images/pic1.jpg);
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+
+main .container div .neighbor:hover {
+    text-decoration: underline;
+    
+}
+
+@media (max-width:768px) {
+    main {
+        background-attachment: scroll;
+    }
+}
+
+main {
+    color: white;
+}
